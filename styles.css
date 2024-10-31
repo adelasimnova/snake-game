@@ -1,0 +1,51 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.game-wrapper {
+    height: 700px;
+    width: 700px;
+}
+
+.playboard {
+    background-color:bisque;
+    height: 100%;
+    width: 100%;
+    display: grid;
+    grid-template: repeat(15, 1fr) / repeat(15, 1fr);
+}
+
+.apple-image {
+    height: 30px;
+    width: 30px;
+}
+
+.apple-image-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.head-image {
+    height: 40px;
+    width: 40px;
+}
+
+.head-image-wrapper{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.score-bar {
+    background-color: rgb(160, 175, 105);
+    height: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px 40px;
+    font-weight: 900;
+    font-family: Verdana, sans-serif;
+}
