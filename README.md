@@ -26,35 +26,35 @@ The game logic is implemented in JavaScript as follows:
 
 1. Game Variables:
 
-`playboard`: Represents the HTML board where the snake and apple are displayed.
+- `playboard`: Represents the HTML board where the snake and apple are displayed.
 
-`scoreElement`, `highScoreElement`: Display the current score and high score.
+- `scoreElement`, `highScoreElement`: Display the current score and high score.
 
-`appleX`, `appleY`: The x and y coordinates for the apple's position.
+- `appleX`, `appleY`: The x and y coordinates for the apple's position.
 
-`headX`, `headY`: The x and y coordinates for the snake's head position.
+- `headX`, `headY`: The x and y coordinates for the snake's head position.
 
-`direction`, `velocityX`, `velocityY`: Handle the direction and speed of the snake.
+- `direction`, `velocityX`, `velocityY`: Handle the direction and speed of the snake.
 
-`score`, `highScore`: Track the current score and high score.
+- `score`, `highScore`: Track the current score and high score.
 
 2. Event Listeners:
 
-`keydown` event listener captures arrow key presses to change the snake's direction.
+- `keydown` event listener captures arrow key presses to change the snake's direction.
 
 3. Game Functions:
 
-`changeVelocity(event)`: Changes the snake's movement direction based on the arrow key pressed.
+- `changeVelocity(event)`: Changes the snake's movement direction based on the arrow key pressed.
 
-`updateApplePosition()`: Randomly sets a new position for the apple on the playboard.
+- `updateApplePosition()`: Randomly sets a new position for the apple on the playboard.
 
-`handleGameOver()`: Clears the game interval and reloads the page when the snake hits the boundaries.
+- `handleGameOver()`: Clears the game interval and reloads the page when the snake hits the boundaries.
 
-`renderGame()`: Renders the game board, moves the snake, and checks for collision with the apple and game boundaries.
+- `renderGame()`: Renders the game board, moves the snake, and checks for collision with the apple and game boundaries.
 
 4. Game Loop:
 
-`setInterval`: Calls `renderGame()` every 200 milliseconds to update the game state and re-render the board.
+- `setInterval`: Calls `renderGame()` every 200 milliseconds to update the game state and re-render the board.
 
 ## How to Run the Game
 
