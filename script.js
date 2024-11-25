@@ -1,6 +1,7 @@
 const playboard = document.getElementById("playboard");
 const scoreElement = document.getElementById("score");
 const highScoreElement = document.getElementById("high-score");
+const controls = document.querySelectorAll(".controls i")
 
 let appleX = 1;
 let appleY = 1;
@@ -85,4 +86,8 @@ updateApplePosition()
 renderGame();
 const intervalId = setInterval(renderGame, 200);
 document.addEventListener("keydown", changeVelocity)
+
+controls.forEach((i) => {
+    i.addEventListener("click", () => changeVelocity({ key: i.dataset.key}))
+})
 

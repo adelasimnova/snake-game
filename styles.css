@@ -10,7 +10,7 @@ body {
 }
 
 .playboard {
-    background-image: url("assets/grass-background.png");
+    background-image: url("assets/grass-background-img.jpg");
     background-size: cover;
     height: 100%;
     width: 100%;
@@ -49,4 +49,28 @@ body {
     padding: 0px 40px;
     font-weight: 900;
     font-family: Verdana, sans-serif;
+}
+
+.controls {
+    background-color: rgb(160, 175, 105);
+    display: none;
+}
+
+.controls i {
+    padding: 20px 60px;
+    font-size: 40px;
+    cursor: pointer;
+
+}
+
+.row {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+@media (max-width: 800px) {
+    .controls{
+        display: block;
+    }
 }
