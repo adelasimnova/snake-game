@@ -14,7 +14,7 @@ body {
 }
 
 .playboard {
-    background-image: url("assets/grass-background-img.jpg");
+    background-image: url("assets/grass-background.png");
     background-size: cover;
     height: 100%;
     width: 100%;
