@@ -1,6 +1,6 @@
 # Snake Game in JavaScript
 
-[Demo](https://webbucket-cdn-snake-game-production-3472e6de.stacktape-app.com/) 
+[Demo](https://snake.simnova.sk/) 
 
 This is a simple Snake Game built with JavaScript, HTML, and CSS. The player controls a snake that grows in length each time it eats an apple, and the goal is to score as many points as possible without hitting the game boundaries.
 
