@@ -2,7 +2,9 @@
 
 [Demo](https://snake.simnova.sk/) 
 
-This is a simple Snake Game built with JavaScript, HTML, and CSS. The player controls a snake that grows in length each time it eats an apple, and the goal is to score as many points as possible without hitting the game boundaries.
+This is a simple Snake Game built with JavaScript, HTML, and CSS. The player controls a snake that moves around the board and scores points by eating apples, the goal is to score as many points as possible without hitting the game boundaries. The game ends when the snake hits the edge of the board.
+
+Currently, the snake does not grow after eating an apple — this feature is not yet implemented.
 
 ## Game Features
 **Responsive Controls:** Use the arrow keys to control the snake's direction.
